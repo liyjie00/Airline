@@ -1,0 +1,143 @@
+.search_query {
+    background-color: #10a2ff;
+    height: 30%;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-bottom: 20px;
+}
+
+.search_input input {
+    width: 17%;
+    margin: 10px 10px 10px 0px;
+    height: 50px;
+    font-size: 120%;
+    float: left;
+    /* background: rgb(194, 231, 255); */
+    background-color: white;
+    /* opacity: 0.7; */
+    border:none;
+    border-radius: 2px;
+    padding-left:10px;
+    color: #10a2ff;
+    font-weight: 700;
+}
+
+::placeholder {
+    color:#10a2ff;
+    opacity: 1;
+}
+.search_input img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 10px 0px;
+    float:left;
+
+}
+
+.search_input button {
+    background-color: #10a2ff;
+    border: 1px solid white;
+
+}
+
+/* .col-lg-3 {
+    border: 1px solid red; 
+} */
+
+
+
+.query_result {
+    list-style-type:none;
+    padding: 10px;
+}
+
+.query_result li{
+    margin-bottom: 10px;
+}
+
+.query_result .card {
+    margin-top: 0;
+}
+
+.flight_info{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.flight_info td {
+    color: grey;
+}
+
+
+.order_btn {
+    margin: 0;
+    height: 30px;
+}
+
+.flight_price {
+    border-left: 1px solid lightgrey;
+}
+
+
+.flight_price p,
+.flight_price h3{
+    margin:5px;
+    color:black;
+}
+
+.card .col-md-9 {
+    padding-left: 0;
+    /* height: 100%; */
+    /* display: flex; */
+    vertical-align: middle;
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /*overflow:;*/
+}
+
+.query_result .card .col-md-9 table {
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: left;
+    width:95%;
+}
+
+
+
+.flight_card {
+    width:100%;
+    /* margin:0;
+    padding: 0;
+    height: 100%; */
+}
+
+.card .col-md-9 .flight_card {
+    background-color: white;
+}
+
+.card .col-md-9 .flight_card:hover {
+    background-color: white;
+    border: white;
+}
+
+.sidenav h2 {
+    display: none;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.ad .row {
+    width:100%;
+    height: 100%;
+}
+
+.fliter {
+    /*position: fixed;*/
+    padding-left: 100px;
+    /*clear:left;*/
+}
+

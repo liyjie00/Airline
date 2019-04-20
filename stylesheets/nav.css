@@ -1,0 +1,70 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: white;
+    height: 50px;
+}
+
+.logo {
+    height: 45px;
+}
+
+.navbar-brand {
+    padding: 2.5px;
+    margin: 0;
+}
+
+/* custom */
+.navbar-nav {
+    margin-top: 0px;
+}
+
+
+
+/* custom */
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: gray;
+}
+
+/* custom */
+.navbar-nav>li>a {
+    background-color: white;
+    padding: 13px;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #10a2ff;
+    background-image: none;
+    color: white;
+}
+
+ul.nav.navbar-nav.navbar-right a:hover {
+    color: white;
+    background-color: #10a2ff;
+    cursor: pointer;
+
+}
+
+ul.nav.navbar-nav.navbar-right a:focus {
+    color: white;
+    background-color: black;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    /* custom */
+    .navbar-nav .open .dropdown-menu {
+        background-color: white;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+        background-color: #10a2ff;
+    }
+}

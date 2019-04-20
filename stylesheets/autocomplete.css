@@ -1,0 +1,39 @@
+/* .search_query {
+    width:300px;
+    padding:5px 10px;
+    margin-left:10px;
+} */
+/****** jQuery Autocomplete CSS *************/
+ .ui-corner-all {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+.ui-menu {
+    border: 1px solid lightgray;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    z-index: 999;
+    width: 30%;
+    background-color: white;
+}
+.ui-menu .ui-menu-item a {
+    /* unmatched letter */
+    color: black; 
+}
+.ui-menu .ui-menu-item:hover {
+    display: block;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: lightgrey;
+    /* background-image: none; */
+    border: 1px solid lightgray;
+}
+.ui-widget-content .ui-state-hover, .ui-widget-content .ui-state-focus {
+    /* border: 1px solid lightgray; */
+    background-image: none;
+    background-color: lightgray;
+    font-weight: bold;
+    color: white;
+}

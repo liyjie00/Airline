@@ -1,0 +1,60 @@
+.order {
+    margin-top: 50px;
+    width: 70%;
+}
+
+.order_detail {
+    padding: 20px;
+}
+
+.order_detail>fieldset>label {
+    background: rgb(233, 233, 233);
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.order_detail>fieldset>label:after{
+    background-color: blue;
+}
+
+.add_pass{
+    width: 300px;
+}
+
+#pass_info > .selected_pass span {
+    width: 110px;
+    float:left;
+}
+
+.info_part {
+    clear:left;
+    margin:5px;
+}
+
+.info_part label {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* .col-sm-6 .update_info {
+    width: 100%;
+} */
+
+/* .card .add_pass_modal .cancelbtn {
+    width: 50%;
+    float: left;
+    background-color: red;
+}
+
+.card .add_pass_modal .cancelbtn:hover{
+    color: red;
+}
+
+.card .add_pass_modal .add_new_pass_btn {
+    width: 50%;
+} */
+
+/*.col-sm-6 .delete_btn:hover{*/
+    /*color:white;*/
+/*}*/

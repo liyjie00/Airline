@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css-v=3.3.5.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css-v=4.4.0.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/plugins/webuploader/webuploader.css">
+    <link rel="stylesheet" type="text/css" href="css/demo/webuploader-demo.min.css">
+    <link href="css/style.min.css-v=4.0.0.css" rel="stylesheet">
+    <base target="_blank">
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeIn">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>添加软件</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="form_file_upload.html#">
+                                <i class="fa fa-wrench"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-user">
+                                <li><a href="form_file_upload.html#">选项1</a>
+                                </li>
+                                <li><a href="form_file_upload.html#">选项2</a>
+                                </li>
+                            </ul>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="page-container">
+                            <p>您可以尝试文件拖拽或者点击添加文件按钮.</p>
+                            <div id="uploader" class="wu-example">
+                                <div class="queueList">
+                                    <div id="dndArea" class="placeholder">
+                                        <div id="filePicker"></div>
+                                        <p>或将文件拖到这里，每次只能上传一个文件</p>
+                                    </div>
+                                </div>
+                                <div class="statusBar" style="display:none;">
+                                    <div class="progress">
+                                        <span class="text">0%</span>
+                                        <span class="percentage"></span>
+                                    </div>
+                                    <div class="info"></div>
+                                    <div class="btns">
+                                        <div id="filePicker2"></div>
+                                        <div class="uploadBtn">开始上传</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js-v=2.1.4.js"></script>
+    <script src="js/bootstrap.min.js-v=3.3.5.js"></script>
+    <script src="js/content.min.js-v=1.0.0.js"></script>
+    <script type="text/javascript">
+        var BASE_URL = 'js/plugins/webuploader';
+    </script>
+    <script src="js/plugins/webuploader/webuploader.min.js"></script>
+    <script src="js/app/device/device_soft_info_add.js"></script>
+</body>
+
+</html>

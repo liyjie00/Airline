@@ -1,0 +1,85 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px solid #D9E1E8;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card_container {
+    padding: 2px 16px;
+    min-height: 0%;
+}
+
+.card .order_btn {
+    background-color: #10a2ff;
+    border: #D9E1E8;
+    margin:5px;
+}
+
+.card .delete_btn{
+    background-color: red;
+    border: #D9E1E8;
+    margin:5px;
+    height: 30px;
+}
+
+.card button:hover{
+    background-color: white;
+    color: #10a2ff;
+    border: 1px solid #10a2ff;
+}
+
+.card .delete_btn:hover{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+}
+
+.card-price span{
+    font-size: 30px;
+    padding-bottom: auto;
+    padding-top: 10px;
+    text-align: right;
+    color: #10a2ff;
+}
+.card-price p{
+    font-size: 15px;
+    margin-bottom: 2px;
+    text-align: left;
+
+}
+
+.card_container p {
+    color: grey;
+    margin-bottom: 2px;
+}
+
+.card .add_favor {
+    background-color: lightgreen;
+    outline: none;
+}
+
+.card .add_favor:hover {
+    border: 1px solid lightgreen;
+    background-color: white;
+    color: lightgreen;
+}
+
+/*.card .add_favor:focus {*/
+    /**/
+
+/*}*/
+
+/*.card .update_info {*/
+    /*margin:5px;*/
+/*}*/

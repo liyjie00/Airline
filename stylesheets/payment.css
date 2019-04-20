@@ -1,0 +1,10 @@
+.payment_detail span {
+    width:110px;
+    float:left;
+}
+
+input[name='card_month'],
+input[name='card_year']
+{
+    width: 70px;
+}
